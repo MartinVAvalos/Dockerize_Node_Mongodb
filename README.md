@@ -1,2 +1,2 @@
-# Dockerize_Node_Mongodb
-Goal is to dockerize node and mongodb application (frontend/backend)
+# Instructions to run project:
+- Database: ```docker run --name mongodb --rm -d -p 27017:27017 mongo```
