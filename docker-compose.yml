@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  mongodb:
+    image: 'mongo'
+    volumes:
+      - data:data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=god
+      - MONGO_INITDB_ROOT_PASSWORD=jesus
+  backend:
+
+  frontend:
